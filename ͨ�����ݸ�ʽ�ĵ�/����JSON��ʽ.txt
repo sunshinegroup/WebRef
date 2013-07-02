@@ -1,0 +1,2 @@
+允威负责的安卓升级JSON格式：
+{"apkName":"update.apk","updateURL":"http://open.sina.com.cn/android/update.apk","vversionCode":"1","versionName":"1.0"}

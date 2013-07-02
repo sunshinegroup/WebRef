@@ -1,0 +1,26 @@
+泳辉、利祥、跃光负责的用户发布的微博信息
+路径：http://127.0.0.1:83/ts/index.php?app=android&mod=Profile&act=index&uid=5
+输出的信息说明如下：
+content：微博中的文字内容
+body：微博中的图片存放路径
+publish_time:微博发布的时间
+repost_count:原文转发次数
+comment_count:原文评论次数
+is_del:来自网址
+
+
+定义的格式如下：
+{"app_mod_act":"android_Profile_Index"，
+"feed_info":[{
+"content":"学海无涯",
+"body":"img_url"
+"publish_time":"06月23日 15:25"
+"repost_count":"3",
+"comment_count":"5",
+"is_del":"来自网站"}],[{
+"content":"言行一致",
+"body":"img_url"
+"publish_time":"06月24日 15:50"
+"repost_count":"2",
+"comment_count":"5"}]
+}

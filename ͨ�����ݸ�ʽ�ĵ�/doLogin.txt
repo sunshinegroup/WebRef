@@ -1,0 +1,11 @@
+丽玲、江辉负责的doLogin界面：
+路径：http://127.0.0.1:83/ts/index.php?app=android&mod=passport&act=doLogin
+用户登录界面：
+登录成功：
+{"app_mod_act":"android_Passport_doLogin","status":"1" }
+登录失败：
+{"app_mod_act":"android_Passport_doLogin","status":"0" }
+
+登录时需传递的参数：login,password,remember
+ajax返回的信息：data,info,status
+说明：当status=1时成功，status=0时失败。

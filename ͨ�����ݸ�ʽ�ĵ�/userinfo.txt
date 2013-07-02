@@ -1,0 +1,21 @@
+灵杰、文龙负责的用户个人信息：
+http://127.0.0.1:83/ts/index.php?app=android&mod=Profile&act=userinfo&uid=1
+输出信息说明：
+uid:用户的id号
+user_name：用户名
+sex：用户性别  1：男，2：女
+location: 北京市 北京市 海淀区  用户地理位置
+weibo_count:微博数量
+following_count:关注数量  //数量默认都为0
+follower_count：粉丝数量
+user_tag:个人标签
+
+定义的格式如下：
+{"app_mod_act":"android_Profile_Index"，
+"user_info":{
+"uid":"2","user_name":"Betty","sex":"1",
+"face":"http://127.0.0.1/addons/theme/stv1/_static/image/noavatar/middle.jpg",
+"space":"http://127.0.0.1/index.php?app=public&mod=Profile&act=index&uid=2",
+"following_count":"0","follower_count":"0","weibo_count":"0",
+"user_tag":"测试用户"
+}}
